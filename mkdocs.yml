@@ -1,0 +1,52 @@
+site_name: Xuehang Cang 苍学航
+theme:
+  name: material
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  #  主题灯光
+  palette:
+    # 白天模式
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # 黑夜模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+  homepage: https://xuehangcang.com
+plugins:
+  - search:
+      lang:
+        - en
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xuehangcang
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:xuehangcang@outlook.com
+copyright: Copyright &copy; 2023 Xuehang Cang. All rights reserved.
+repo_url: https://github.com/xuehangcang/xuehangcang.github.io
+repo_name: xuehangcang/xuehangcang.github.io
+nav:
+  - Welcome: index.md
