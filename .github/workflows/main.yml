@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # 使用的Node.js版本 可以根据需要修改
+          node-version: '16' # 使用的Node.js版本 可以根据需要修改
 
       - name: Install dependencies
         run: npm install
