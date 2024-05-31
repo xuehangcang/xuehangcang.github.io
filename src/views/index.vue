@@ -19,7 +19,7 @@
         </p>
 
         <p class="mb-4">
-            I'm a <a class="text-blue-700" href="https://www.python.org" target="_blank">Python</a>  programming language enthusiast from  <a class="text-blue-700" href="https://en.wikipedia.org/wiki/China" target="_blank">China 🇨🇳</a>. See also my <a class="text-blue-700" href="#">resume</a>, and my  <RouterLink to="/pics" class="text-blue-700">publications list</RouterLink>, a <a class="text-blue-700" href="#">brief bio</a>, assorted <a class="text-blue-700" href="#">writings</a>, <a class="text-blue-700" href="#">presentations</a>,and some <RouterLink to="/pics" class="text-blue-700">pictures of me</RouterLink>. I am <a class="text-blue-700" href="https://twitter.com/xuehangcang" target="_blank">@Xuehang Cang</a> on Twitter.
+            I'm a <a class="text-blue-700" href="https://www.python.org" target="_blank">Python</a>  programming language enthusiast from  <a class="text-blue-700" href="https://en.wikipedia.org/wiki/China" target="_blank">China 🇨🇳</a>. See also my <a class="text-blue-700" href="#">resume</a>, and my  <RouterLink to="/" class="text-blue-700">publications list</RouterLink>, a <a class="text-blue-700" href="#">brief bio</a>, assorted <a class="text-blue-700" href="#">writings</a>, <a class="text-blue-700" href="#">presentations</a>,and some <RouterLink to="/pics" class="text-blue-700">pictures of me</RouterLink>. I am <a class="text-blue-700" href="https://twitter.com/xuehangcang" target="_blank">@Xuehang Cang</a> on Twitter.
 
         </p>
         <p class="mb-4">
