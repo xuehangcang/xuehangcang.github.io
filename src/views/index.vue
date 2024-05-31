@@ -5,9 +5,9 @@
 <template>
     <div class="container mx-auto p-4">
         <div class="text-3xl font-bold my-4 flex justify-between items-end">
-            <a href="/pics"><img class="h-72"  src="../assets/image/IMG_20130528_114857.jpg" alt=""></a>
+            <RouterLink to="/pics"><img class="h-72"  src="../assets/image/IMG_20130528_114857.jpg" alt=""></RouterLink>
             Xuehang Cang (苍学航) - Personal Home Page
-            <a href="/pics"><img class="h-72" src="../assets/image/6c279cc5-939d-4276-9fe4-4a8ecfedc480crop_photo.jpg" alt=""></a>
+            <RouterLink to="/pics"><img class="h-72" src="../assets/image/6c279cc5-939d-4276-9fe4-4a8ecfedc480crop_photo.jpg" alt=""></RouterLink>
         </div>
 
         <p class="italic mb-4">
@@ -19,7 +19,7 @@
         </p>
 
         <p class="mb-4">
-            I'm a <a class="text-blue-700" href="https://www.python.org" target="_blank">Python</a>  programming language enthusiast from  <a class="text-blue-700" href="https://en.wikipedia.org/wiki/China" target="_blank">China 🇨🇳</a>. See also my <a class="text-blue-700" href="#">resume</a> and my <a class="text-blue-700" href="#">publications list</a>, a <a class="text-blue-700" href="#">brief bio</a>, assorted <a class="text-blue-700" href="#">writings</a>, <a class="text-blue-700" href="#">presentations</a>, some <a class="text-blue-700" href="#">pictures of me</a>, I am <a class="text-blue-700" href="https://twitter.com/xuehangcang" target="_blank">@Xuehang Cang</a> on Twitter.
+            I'm a <a class="text-blue-700" href="https://www.python.org" target="_blank">Python</a>  programming language enthusiast from  <a class="text-blue-700" href="https://en.wikipedia.org/wiki/China" target="_blank">China 🇨🇳</a>. See also my <a class="text-blue-700" href="#">resume</a> and my  <RouterLink to="/pics" class="text-blue-700">publications list</RouterLink>, a <a class="text-blue-700" href="#">brief bio</a>, assorted <a class="text-blue-700" href="#">writings</a>, <a class="text-blue-700" href="#">presentations</a>, some <a class="text-blue-700" href="#">pictures of me</a>, I am <a class="text-blue-700" href="https://twitter.com/xuehangcang" target="_blank">@Xuehang Cang</a> on Twitter.
 
         </p>
         <p class="mb-4">

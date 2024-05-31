@@ -5,7 +5,9 @@
 <template>
     <div class="container mx-auto p-4 bg-white text-black">
         <h1 class="text-3xl font-bold mb-4">Xuehang Cang (苍学航) - Pictures of me</h1>
-        <p><a href="/" class="text-blue-500 hover:underline">Back to my personal home page</a></p>
+        <p>
+            <RouterLink to="/" class="text-blue-700 hover:underline">Back to my personal home page</RouterLink>
+        </p>
 
         <div class="mt-4">
             <a href="../assets/image/2021.jpg">
