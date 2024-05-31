@@ -52,11 +52,11 @@
 
         <ul class="list-disc list-inside mb-4">
             <li class="mb-2">
-                Here is the <a class="text-blue-500" href="https://github.com/xuehangcang" target="_blank">project and python packages</a> I have released.
+                Here is the <a class="text-blue-700" href="https://github.com/xuehangcang" target="_blank">project and python packages</a> I have released.
             </li>
 
             <li class="mb-2">
-                Here is the  <a class="text-blue-500" href="https://huggingface.co/Xuehang" target="_blank">model and dataset</a> I have released, which includes some test data.
+                Here is the  <a class="text-blue-700" href="https://huggingface.co/Xuehang" target="_blank">model and dataset</a> I have released, which includes some test data.
                 <div class="mb-2 mt-2 flex flex-col rounded-xl border border-gray-100 bg-white p-5 shadow-sm max-sm:overflow-hidden">
                     <h4 class="font-semibold">My Hardware</h4>
                     <div class="mt-4 grid grid-cols-1 gap-5 xl:grid-cols-2">
@@ -98,7 +98,7 @@
             </li>
 
             <li class="mb-2">
-                Here is the <a class="text-blue-500" href="https://www.heywhale.com/home/user/profile/5ee9f592c1914600362bea45/overview" target="_blank">article and tutorial</a> I have released.
+                Here is the <a class="text-blue-700" href="https://www.heywhale.com/home/user/profile/5ee9f592c1914600362bea45/overview" target="_blank">article and tutorial</a> I have released.
             </li>
         </ul>
 
@@ -108,7 +108,7 @@
 
 
         <p class="text-center mb-4">
-            <a class="text-blue-500" href="">"On the Internet, nobody knows you're a dog."</a>
+            <a class="text-blue-700" href="">"On the Internet, nobody knows you're a dog."</a>
         </p>
 
     </div>
