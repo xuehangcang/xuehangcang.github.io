@@ -58,8 +58,8 @@
                                 <div class="flex items-start justify-start gap-3">
                                     <img alt="GPU" class="w-12" src="../assets/image/gpu.png">
                                     <div class="self-center">
-                                        <div class="text-balance text-base font-semibold text-opacity-50 max-sm:text-sm">GPU NVIDIA T4</div>
-                                        <div class="text-xs text-gray-500 sm:text-sm">15360MiB</div>
+                                        <div class="text-balance text-base font-semibold text-opacity-50 max-sm:text-sm">GPU NVIDIA A100</div>
+                                        <div class="text-xs text-gray-500 sm:text-sm">40GB</div>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-end gap-1">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="-mx-5 mb-4 mt-6 border-gray-100 px-6 pb-6 pt-2">
                         <p class="text-base font-semibold">Amazing!</p>
-                        <p class="text-sm text-gray-500">I have a total of 65.13 TFLOPS(FP16) \ 8.1 TFLOPS(FP32) of computing power.</p>
+                        <p class="text-sm text-gray-500">I have a total of 77.97 TFLOPS of computing power.</p>
                         <div class="mb-1 mt-3 flex items-center justify-between">
                             <p class="text-sm font-semibold text-gray-900">GPU poor</p>
                             <p class="text-sm font-semibold text-gray-900">GPU rich</p>
@@ -78,9 +78,9 @@
                         <div class="relative h-2 w-full rounded-full bg-gradient-to-r from-red-500 via-yellow-500 to-green-500">
                             <div
                                 class="absolute -top-1 h-4 w-2 -translate-x-1/2 rounded-full border border-gray-100 bg-white shadow"
-                                style="left: 54.283%;"></div>
+                                style="left: 58.3341%;"></div>
                             <div
-                                class="absolute top-5 max-w-max -translate-x-1/2 whitespace-nowrap rounded-lg border border-gray-200 bg-white px-2 py-1 text-xs font-semibold text-gray-600 shadow" style="left: 54.283%;">65.13 TFLOPS
+                                class="absolute top-5 max-w-max -translate-x-1/2 whitespace-nowrap rounded-lg border border-gray-200 bg-white px-2 py-1 text-xs font-semibold text-gray-600 shadow" style="left: 58.3341%;">77.97 TFLOPS
                             </div>
                         </div>
                     </div>
