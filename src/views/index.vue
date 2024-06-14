@@ -48,7 +48,7 @@
             </li>
 
             <li class="mb-2">
-                Here is the  <a class="text-blue-700 hover:underline" href="https://huggingface.co/Xuehang" target="_blank">model and dataset</a> I have released, which includes some test data.
+                Here is the  <a class="text-blue-700 hover:underline" href="https://huggingface.co/XuehangCang" target="_blank">model and dataset</a> I have released, which includes some test data.
                 <div class="mb-2 mt-2 flex flex-col rounded-xl border border-gray-100 bg-white p-5 shadow-sm max-sm:overflow-hidden">
                     <h4 class="font-semibold">My Hardware</h4>
                     <div class="mt-4 grid grid-cols-1 gap-5 xl:grid-cols-2">
