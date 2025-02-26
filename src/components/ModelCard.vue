@@ -4,6 +4,7 @@ const props = defineProps({
     model_type: String,
     model_url: String,
 })
+console.log(props.model_url)
 </script>
 
 <template>
@@ -14,7 +15,7 @@ const props = defineProps({
                 <p class="text-gray-700 mb-4 max-w-sm overflow-hidden whitespace-nowrap text-ellipsis">{{ model_introduce }}</p>
                 <div class="flex items-center justify-between">
                     <span class="text-gray-600 text-sm">{{ model_type }}</span>
-                    <a href='{{ model_url }}' target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">下载模型</a>
+                    <a :href="model_url" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">下载模型</a>
                 </div>
             </div>
         </div>

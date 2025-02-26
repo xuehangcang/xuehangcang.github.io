@@ -14,7 +14,7 @@ const props = defineProps({
                 <p class="text-gray-700 mb-4 max-w-sm overflow-hidden whitespace-nowrap text-ellipsis">{{ data_introduce }}</p>
                 <div class="flex items-center justify-between">
                     <span class="text-gray-600 text-sm">{{ data_type }}</span>
-                    <a href='{{ data_url }}' target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">下载数据</a>
+                    <a :href="data_url" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">下载数据</a>
                 </div>
             </div>
         </div>
