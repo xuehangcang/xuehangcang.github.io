@@ -4,7 +4,9 @@ import DatasetsCard from "@/components/DatasetsCard.vue";
 </script>
 
 <template>
-    <main class="container mx-auto">
+    <main class="container mx-auto flex flex-col min-h-screen">
+
+        <div class="flex-grow">
         <div class="flex items-center mt-4 mb-4">
             <img class=" mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0"
                  src="../assets/img/logo.jpg"
@@ -61,7 +63,7 @@ import DatasetsCard from "@/components/DatasetsCard.vue";
         </div>
 
         <div class="text-xl font-bold mt-4 mb-4">社交</div>
-        <div class="ml-6 mb-6">
+        <div class="ml-6">
             <ul class="list-disc">
                 <li>
                     <a class="text-blue-500 hover:text-blue-700" href="https://x.com/XuehangCang" target="_blank">Twitter</a>
@@ -75,7 +77,8 @@ import DatasetsCard from "@/components/DatasetsCard.vue";
                 </li>
             </ul>
         </div>
-
+            <!-- 这里放置你的主要内容 -->
+        </div>
     </main>
 
 </template>
